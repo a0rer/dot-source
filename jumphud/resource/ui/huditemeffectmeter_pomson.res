@@ -1,0 +1,1 @@
+#base huditemeffectmeter_particlecannon.res

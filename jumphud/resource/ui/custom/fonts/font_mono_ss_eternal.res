@@ -1,0 +1,37 @@
+"Scheme"
+{
+    "Fonts"
+    {
+        "DefaultFixedOutline"	// net_graph, cl_showpos & cl_showfps
+        {
+            "1"
+            {
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
+                "Tall"              "18"
+                "outline"           "1"
+                "dropshadow"        "0"
+                "antialias"         "1"
+            }
+        }
+        "ConsoleText"
+        {
+            "1"
+            {
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
+                "Tall"          "16"
+                "weight"        "0"
+            }
+        }
+    }
+    "CustomFontFiles"
+    {
+        "4"
+        {
+            "Font"          "resource/scheme/fonts/optional/EternalUi2Regular-rglwx.ttf"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
+        }
+    }
+}

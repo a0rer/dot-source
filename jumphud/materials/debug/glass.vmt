@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "debug/glass"
+    "$translucent" 1
+}

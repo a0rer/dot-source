@@ -1,0 +1,110 @@
+<a href="https://github.com/itsmmarc/jumphud"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/logo.png"></a>
+
+A Team Fortress 2 HUD packed with features designed for use on Tempus jump servers.
+
+---
+
+<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.5.1/jumphud-v2.5.1.zip"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/wiki/SHOWCASE"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/screenshotsbutton.png"></a><br>
+<a href="https://discord.gg/s6yJMGecMZ"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/discord.png"></a>
+<a href="https://ko-fi.com/itsmmarc"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/kofi.png"></a>
+
+---
+
+## Installation
+
+1. Download the [latest release](https://github.com/itsmmarc/jumphud/releases/latest)
+
+2. Navigate to your Team Fortress 2 installation. The easiest way is to right click on the game in your Steam library and select `Manage > Browse local files`
+
+3. Unzip the download into `tf/custom`
+
+4. Rename the folder to exactly `jumphud`
+
+5. In the end, the folder structure should look like `Steam/steamapps/common/Team Fortress 2/tf/custom/jumphud/resource/`
+
+6. To use input display, pipe timer, or mirror world, you must rebind your keys with the binds found at the top of the settings menu. Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see how to update your config to use these.
+
+7. _**\[linux\]** install the fonts located in `resource/scheme/fonts/`_
+
+8. If you experience issues after updating the HUD from a previous version, reset your HUD config by deleting the `jumphud` folder from `tf/cfg/`
+
+## Troubleshooting
+
+#### When I click the _X_ button nothing happens.
+
+Add `exec jh_setup` to `tf/cfg/autoexec.cfg` and restart the game. This is usually caused by clashes with another mod using the `valve.rc` file to run commands on startup.
+
+#### _X_ is broken after updating the HUD.
+
+Try deleting the `tf/cfg/jumphud/` folder. This stores your selected customizations and can sometimes break between updates.
+
+_If you run into any other problems, please leave a message in the [Discord](https://discord.gg/s6yJMGecMZ)._
+
+## Features
+
+![Speedos Preview](https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/jump/speedospreview.webp)
+
+- Modular design allowing you to declutter or enable elements as you wish
+
+- Fully customizable speedos with dynamic color ranges
+
+- Bar speedos designed to assist in demoman airpogo
+
+- Spraypaint bind with various colours and sizes
+
+- Custom textures for triggers and other tool textures
+
+- Color customization options for rockets, stickybombs, damage indicator, & many other hud elements
+
+- Many useful binds added to the settings menu such as ctap, toggle thirdperson, and hold to restart run
+
+- Utility buttons added to the pause many for settings such as toggling speedos, showing map triggers, and managing save locations
+
+## Customization
+
+Swap the HUD into Casual Mode by clicking the logo on the main menu
+
+The HUD includes a thorough ingame customization menu with options for speedos, fonts, crosshairs, shaders, and more
+
+Modify the Tempus speedo colour & position in `cfg/#tempus_speedo_config.cfg`
+
+Adjust the highlight ranges of HUD speedo's dynamic colors in `jumphud/materials/speedo/colors/ranges/`
+
+Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see what else you can modify to take full advantage of JumpHUD
+
+## Known Issues/Limitations:
+
+Some customization options are not supported on Linux. There is a large cross covering these options when running the HUD on a Linux system.
+
+Mirror world does not flip the game's audio or damage numbers.
+
+HUD speedos start to flicker more the longer a map has been running. This is due to limitations with VMT material proxy scripting.
+
+Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
+
+_If you run into any other problems, please leave a message in the [Discord](https://discord.gg/s6yJMGecMZ)._
+
+## FAQ
+
+#### How do I queue for casual/MVM?
+
+Click on the JumpHUD logo icon to switch the hud into casual mode, you can switch back by clicking on the TF2 logo.
+
+#### Why isn't the HUD's input display / pipe timer / mirror world working?
+
+For input display, pipe timer, and mirror world, you must rebind your keys with the binds found at the top of the settings menu. Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see how to update your config to use these.
+
+---
+
+## Credits
+
+[m0rehud](https://github.com/Hypnootize/m0rehud)
+
+[SUthrey & Pear's heighto and horizontal/vertical HUD speedos](https://github.com/bakapear/hudmods)
+
+[Elandi's custom Tempus sprays](https://github.com/Elandi-rj/sprays)
+
+[cuekie's HUD screenspace shaders](https://github.com/cueki/hud-screenspace-shaders)
+
+[200's Seamless Hexagon Force Field textures](https://tf2maps.net/downloads/seamless-hexagon-force-field-textures.2947/)

@@ -1,0 +1,6 @@
+"#base"                 "main.vmt"
+
+"UnlitGeneric"
+{
+        $isLeft 1
+}
