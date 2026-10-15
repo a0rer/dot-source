@@ -125,6 +125,11 @@
             "Font"          "resource/scheme/fonts/optional/Comic_Sans_MS.ttf"
             "name"          "Comic Sans MS"
         }
+        "34"
+        {
+            "Font"          "resource/scheme/fonts/optional/JetBrainsMonoNerdFontMono-Regular.ttf"
+            "name"          "JetBrainsMono Nerd Font Mono"
+        }
         // icon fonts
         "101"
         {
