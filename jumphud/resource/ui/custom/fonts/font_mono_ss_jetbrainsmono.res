@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"              "JetBrainsMono Nerd Font Mono"
+                "name"              "JetBrainsMono NFM"
                 "Tall"              "20"
                 "outline"           "1"
                 "dropshadow"        "0"
@@ -17,7 +17,7 @@
         {
             "1"
             {
-                "name"              "JetBrainsMono Nerd Font Mono"
+                "name"              "JetBrainsMono NFM"
                 "Tall"              "20"
                 "weight"            "0"
             }
@@ -28,7 +28,7 @@
         "4"
         {
             "Font"          "resource/scheme/fonts/optional/JetBrainsMonoNerdFontMono-Regular.ttf"
-            "name"          "JetBrainsMono Nerd Font Mono"
+            "name"          "JetBrainsMono NFM"
         }
     }
 }

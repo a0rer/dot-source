@@ -230,6 +230,15 @@
                 "antialias"         "1"
             }
         }
+        "Showcase_JetBrainsMono"
+        {
+            "1"
+            {
+                "name"              "JetBrainsMono NFM"
+                "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
         "Crosshair_Showcase"
         {
             "1"

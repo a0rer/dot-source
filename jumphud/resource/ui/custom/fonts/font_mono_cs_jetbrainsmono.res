@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"              "JetBrainsMono Nerd Font Mono"
+                "name"              "JetBrainsMono NFM"
                 "Tall"              "10"
                 "antialias"         "1"
             }
@@ -15,7 +15,7 @@
         {
             "1"
             {
-                "name"              "JetBrainsMono Nerd Font Mono"
+                "name"              "JetBrainsMono NFM"
                 "Tall"              "10"
                 "antialias"         "1"
             }

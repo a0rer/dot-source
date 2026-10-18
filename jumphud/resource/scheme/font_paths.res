@@ -128,7 +128,7 @@
         "34"
         {
             "Font"          "resource/scheme/fonts/optional/JetBrainsMonoNerdFontMono-Regular.ttf"
-            "name"          "JetBrainsMono Nerd Font Mono"
+            "name"          "JetBrainsMono NFM"
         }
         // icon fonts
         "101"
