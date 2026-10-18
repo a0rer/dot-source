@@ -7,7 +7,7 @@
             "1"
             {
                 "name"              "JetBrainsMono NFM"
-                "Tall"              "20"
+                "Tall"              "22"
                 "outline"           "1"
                 "dropshadow"        "0"
                 "antialias"         "1"
@@ -18,7 +18,7 @@
             "1"
             {
                 "name"              "JetBrainsMono NFM"
-                "Tall"              "20"
+                "Tall"              "16"
                 "weight"            "0"
             }
         }
