@@ -398,7 +398,7 @@
     {
         "label"             "H"
         "Command"           "engine toggle_tempus_hspeedo"
-        "tooltip"           "Toggle Horizontal Speedo"
+        "tooltip"           "Toggle Tempus horizontal speedo"
         "OnlyInGame"        "1"
     }
     "VSpeedo"
